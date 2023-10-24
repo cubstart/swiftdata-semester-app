@@ -12,6 +12,7 @@ struct SwiftDataLec7App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [CSClass.self, CSSemester.self])
         }
     }
 }
